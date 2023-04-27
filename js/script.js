@@ -19,7 +19,7 @@
         }
       }
     };
-    xhr.open("POST", "http://localhost/Basic-PHP-Login-System/login.php", true);
+    xhr.open("POST", "http://localhost/Basic-PHP-Login-System/backend/login.php", true);
     xhr.send(formData);
   }
 
