@@ -1,4 +1,4 @@
-<script>
+
   // Function to send login request
   function login() {
     // Get form data
@@ -33,4 +33,4 @@
     form.classList.add("was-validated");
     login();
   });
-</script>
+
