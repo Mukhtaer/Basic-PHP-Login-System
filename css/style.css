@@ -1,0 +1,15 @@
+/* Style for form validation */
+  .was-validated .form-control:valid, .form-control.is-valid {
+    border-color: #28a745;
+  }
+  .was-validated .form-control:valid:focus, .form-control.is-valid:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+  }
+  .was-validated .form-control:invalid, .form-control.is-invalid {
+    border-color: #dc3545;
+  }
+  .was-validated .form-control:invalid:focus, .form-control.is-invalid:focus {
+    border-color: #dc3545;
+    box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+  }
