@@ -26,6 +26,7 @@
   // Form validation
   var form = document.getElementById("login-form");
   form.addEventListener("submit", function(event) {
+    event.preventDefault(); // prevent default form submission behavior
     if (!form.checkValidity()) {
       event.preventDefault();
       event.stopPropagation();
